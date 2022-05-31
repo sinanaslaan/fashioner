@@ -1,0 +1,31 @@
+.recommended {
+  padding-bottom: 35px;
+}
+
+.recommended .container h2 {
+  text-align: center;
+  color: black;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.recommended-wrapper {
+  margin-top: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.recommended-item {
+  padding: 50px;
+}
+
+.recommended-item h4 {
+  text-align: center;
+  margin-top: 12px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}

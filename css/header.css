@@ -1,0 +1,86 @@
+.header {
+  padding: 50px 0;
+}
+
+.header-navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-navbar-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-navbar-item {
+  list-style: none;
+  margin-right: 30px;
+}
+
+.header-navbar-item:first-child a {
+  border-radius: 5px;
+  padding: 7px 18px;
+  background-color: #000;
+  color: #fff;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-navbar-item:first-child a:hover {
+  background-color: red;
+}
+
+.header-navbar-item:last-child {
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-navbar-item:last-child span {
+  margin-left: 7px;
+  color: #FF5A5F;
+}
+
+.header-navbar-link {
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+}
+
+.header-login {
+  border: 1.3px solid #FF5A5F;
+  -webkit-transition: all ease .3s;
+  transition: all ease .3s;
+  border-radius: 10px;
+  padding: 18px 42px;
+  background-color: #FF5A5F;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  -webkit-box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+          box-shadow: 10px 10px 18px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header-login:hover {
+  background-color: #000;
+  border-color: #000;
+}

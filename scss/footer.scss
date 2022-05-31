@@ -1,0 +1,106 @@
+.footer {
+    padding: 40px 0;
+    background-color: #e5e5e5;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+
+        &-menu {
+            display: flex;
+            list-style: none;
+            flex-direction: column;
+            flex: 1;
+            justify-content: flex-start;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.15em;
+            color: #000000;
+        }
+        &-sub-link {
+            margin-top: auto;
+            font-weight: 500;
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 0.15em;
+            color: #000000;
+            padding-top: 30px;
+        }
+
+        &-description {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+
+        &-item {
+            padding-bottom: 15px;
+            text-align: left;
+            img {
+                padding: 12px 0px;
+            }
+        }
+        &-link {
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 24px;
+            color: #000000;
+        }
+    }
+
+    &-center {
+        padding-top: 70px;
+
+        &-social {
+            display: flex;
+            justify-content: flex-start;
+
+            &-text {
+                padding-right: 10px;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 30px;
+                color: #000000;
+            }
+
+            &-link {
+                padding-right: 15px;
+            }
+            &-info {
+                display: flex;
+                justify-content: flex-start;
+                padding-left: 250px;
+                &-text {
+                    padding-right: 16px;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 30px;
+                    letter-spacing: 0.15em;
+                    color: #000000;
+                }
+            }
+        }
+    }
+
+    &-bottom {
+        padding: 90px 0px 80px;
+
+        &-middle {
+            display: flex;
+            justify-content: center;
+        }
+
+        &-title {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 27px;
+            text-align: center;
+            color: #000000;
+        }
+    }
+}

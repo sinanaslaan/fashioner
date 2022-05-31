@@ -1,0 +1,36 @@
+@import "normalize";
+@import "header";
+@import "showcase";
+@import "button";
+@import "product";
+@import "bodywear";
+@import "recommended";
+@import "newsletter";
+@import "footer";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 100%;
+    padding-right: 0.9375rem;
+    padding-left: 0.9375rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1120px;
+}
+
+a{
+    text-decoration: none;
+}
+h2{
+    color: #FF5A5F;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+}
